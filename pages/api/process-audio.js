@@ -58,7 +58,7 @@ export default async function handler(req, res) {
             content: `Please analyze this meeting transcript and provide a structured summary in the following JSON format:
 
 {
-  "participants": ["List of participants mentioned or identified in the meeting"],
+  "participants": ["List of participants mentioned or identified in the meeting, if no participants then do not write anything"],
   "shortSummary": "A concise 2-3 sentence summary of the meeting",
   "actionItems": ["List of specific action items with assignees if mentioned"],
   "keyPoints": ["List of important points discussed in the meeting"]
