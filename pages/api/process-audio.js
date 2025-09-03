@@ -61,7 +61,7 @@ export default async function handler(req, res) {
   "participants": ["List of participants mentioned or identified in the meeting, if no participants then do not write anything"],
   "shortSummary": "A concise 2-3 sentence summary of the meeting",
   "actionItems": ["List of specific action items with assignees if mentioned"],
-  "keyPoints": ["List of important points discussed in the meeting"]
+  "keyPoints": ["List of important points discussed in the meeting, there should be 3-4 key points. If recording is long then add more."]
 }
 
 Transcript:
